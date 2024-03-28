@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slicing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container" id="cl">
+    <img class="bg" src="assets/car_1 bg.png" alt="">
+    <span class="slider" id="slider1"></span>
+    <span class="slider" id="slider2"></span>
+    <span class="slider" id="slider3"></span>
+
+    <div class="imgContainer">
+       <div class="slide_div" id="slide_1">
+        <div class="box">
+          <img src="assets/ban.jpg" alt="" class="img" id="img1">
+          <a href="#slider1" class="button" id="button1"></a>
+          <span>TIRE</span>
+        </div>
+       </div>
+       <div class="slide_div" id="slide_2">
+        <div class="box">
+          <img src="assets/mesin.jpg" alt="" class="img" id="img2">
+          <a href="#slider2" class="button" id="button2"></a>
+          <span>ENGINE</span>
+        </div>
+       </div>
+       <div class="slide_div" id="slide_3">
+        <div class="box">
+          <img src="assets/knalpot.jpg" alt="" class="img" id="img3">
+          <a href="#slider3" class="button" id="button3"></a>
+          <span>EXHAUST</span>
+        </div>
+       </div>
+    </div>
+    <div class="header">
+      <div class="hd1">
+        <img class="lg" src="assets/log.png" alt="">
+        <h1>Drift Garage</h1>
+      </div>
+      <div class="hd2">
+        <nav class="btn nb" onclick="">Home</nav>
+        <nav class="btn nb" onclick="">Garage</nav>
+        <nav class="btn nb" onclick="">Settings</nav>
+      </div>
+      <div class="hd3">
+        <button class="btn" onclick="lo()">Log Out</button>
+      </div>
+    </div>
+  </div>
+  <div class="bl" id="dl">
+    <div class="blo">
+      <h1>THANKS YOU</h1>
+      <p>Have a nice day</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
